@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import data from "../../data.json";
 import "../../assets/styles/blockchainList.css";
-import { json } from "stream/consumers";
 
 function Table() {
   const [dataList, setDataList] = useState(data);
   const [manageList, setManageList] = useState<any>([]);
-  const [searchString, setSearchString] = useState();
+  const [searchString, setSearchString] = useState<string>("");
 
   const search = (searchElement: string) => {
     let arr: any = [];
-    data.map((d) => {
+    data.forEach((d) => {
       if (d.name.toLowerCase().includes(searchElement.toLowerCase())) {
         arr.push(d);
       }
@@ -20,10 +19,10 @@ function Table() {
 
   const sortByType = (type: string) => {
     let arr: any = [];
-    if (type == "all") {
+    if (type === "all") {
       arr = data;
     } else {
-      data.map((d) => {
+      data.forEach((d) => {
         if (d.type.toLowerCase() === type.toLowerCase()) {
           arr.push(d);
         }
@@ -124,6 +123,7 @@ function Table() {
               placeholder="Search Pools"
               value={searchString}
               onChange={(event) => {
+                setSearchString(event.target.value);
                 search(event.target.value);
               }}
             />
