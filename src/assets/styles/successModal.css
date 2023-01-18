@@ -1,0 +1,26 @@
+.card-success-modal-container {
+    position: absolute;
+    margin-left: 35%;
+    width: 30%;
+    height: 40%;
+    margin-top: -40%;
+    background: #FDFDFD;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.card-done-mssg {
+    margin-top: 10px;
+}
+
+.card-success-modal-image img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
