@@ -1,0 +1,102 @@
+[
+  {
+    "name": "TENFI",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 14.72,
+    "daily": 0.04,
+    "TVL": 591473.78,
+    "pendingTenfi": 0.0000,
+    "type": "Single"
+  },
+  {
+    "name": "BSW",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 12.11,
+    "daily": 0.10,
+    "TVL": 71642.98,
+    "pendingTenfi": 0.0000,
+    "type": "Single"
+  },
+  {
+    "name": "ibBNB",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 4.93,
+    "daily": 0.01,
+    "TVL": 321126.01,
+    "pendingTenfi": 0.0000,
+    "type": "Single"
+  },
+  {
+    "name": "ibBTCB",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 4.60,
+    "daily": 0.01,
+    "TVL": 70234.57,
+    "pendingTenfi": 0.0000,
+    "type": "Single"
+  },
+  {
+    "name": "ibBUSD",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 6.14,
+    "daily": 0.02,
+    "TVL": 197354.06,
+    "pendingTenfi": 0.0000,
+    "type": "Single"
+  },
+  {
+    "name": "BNB/TENFI LP",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 55.61,
+    "daily": 0.16,
+    "TVL": 208437.36,
+    "pendingTenfi": 0.0000,
+    "type": "LP"
+  },
+  {
+    "name": "TENFI/BUSD LP",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 69.56,
+    "daily": 0.19,
+    "TVL": 127030.11,
+    "pendingTenfi": 0.0000,
+    "type": "LP"
+  },
+  {
+    "name": "CAKE/BNB LP",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 20.54,
+    "daily": 0.07,
+    "TVL": 22643.34,
+    "pendingTenfi": 0.0000,
+    "type": "LP"
+  },
+  {
+    "name": "DAI/USDT LP",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 3.66,
+    "daily": 0.02,
+    "TVL": 99893.02,
+    "pendingTenfi": 0.0000,
+    "type": "LP"
+  },
+  {
+    "name": "BNB/BUSD LP",
+    "balance": 0.00,
+    "deposited": 0.00,
+    "yearly": 4.20,
+    "daily": 0.04,
+    "TVL": 87791.51,
+    "pendingTenfi": 0.0000,
+    "type": "LP"
+  }
+]

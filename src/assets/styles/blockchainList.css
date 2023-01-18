@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #121b24;
+    --text-color: rgb(92, 129, 161);
+    --value-text-color: white;
+    --secondary-text-color: #938cee;
+    --primary-bg-color: #1a2732;
+    --border-color: rgb(92, 129, 161, .3);
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.total-tenfi-container .jumbotron {
+    background: transparent;
+    border: .5px solid var(--border-color);
+    height: 100%;
+}
+
+.total-tenfi-staked {
+    font-size: .8rem;
+}
+
+.total-tenfi-tvl {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.summary-container {
+    background: var(--primary-bg-color);
+    border: .5px solid var(--border-color);
+}
+
+.sumamrized-data-container {
+    background: transparent;
+    border: .5px solid var(--border-color);
+    height: 100%;
+    color: var(--text-color);
+}
+
+.summarized-data-heading {
+    font-size: 10px;
+}
+
+.summarized-data-value {
+    font-size: 2rem;
+}
+
+.standard-outline-button {
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    background: #141f29;
+    border: .5px solid var(--border-color);
+    border-radius: 5px;
+    padding: 12px 16px;
+    transition: all .3s ease-in-out;
+}
+
+.standard-outline-button:hover {
+    background: #2e3b46;
+}
+
+.data-title-heading {
+    font-size: 13px;
+}
+
+.data-title-heading .white-text,
+.data-title-heading .green-text {
+    font-size: 20px;
+}
+
+.green-text {
+    color: rgb(0, 128, 107);
+}
+
+.white-text {
+    color: var(--value-text-color)
+}
+
+.purple-text {
+    color: var(--secondary-text-color)
+}
+
+.ten-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.white-text {
+    font-size: large;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.sort-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#search {
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: white;
+}
+
+.dropdown-container {
+    margin-left: 3%;
+}
+
+.dropdown {
+    margin-top: 9px;
+}
+
+.select-platform {
+    height: 38px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+select {
+    color: white;
+}
+
+option {
+    color: black;
+}
+
+.expanded-containers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.get-button {
+    width: 31%;
+    font-size: 10px;
+}
+
+.row-3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.range-container {
+    margin-top: 10px;
+}
+
+.range-value {
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#range {
+    width: 70%;
+}
+
+.range-percent {
+    margin-left: 10%;
+}
+
+.row-4 {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.first-container {
+    border: 1px solid rgb(92, 129, 161, .3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.second-container {
+    margin-left: 2%;
+    border: 1px solid rgb(92, 129, 161, .3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.third-container {
+    border: 1px solid rgb(92, 129, 161, .3);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 12px;
+    margin-left: 2%;
+}
+
+.third-con-row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-row2,
+.col-row3,
+.col-row4,
+.col-row5,
+.col-row6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(92, 129, 161, .3);
+}
+
+.col2 {
+    margin-left: 5%;
+}
+
+.col2-row2,
+.col2-row3,
+.col2-row4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    white-space: nowrap;
+    width: 150px;
+}
+
+.col1 {
+    margin-left: 10px;
+}
+
+#claim-button {
+    margin-left: 80px;
+}
