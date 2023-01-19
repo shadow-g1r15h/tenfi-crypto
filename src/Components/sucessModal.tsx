@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../assets/styles/successModal.css";
 import Success from "../assets/images/success.png";
 import { useHistory } from "react-router-dom";
@@ -26,6 +26,9 @@ const SuccessModal: React.FC<Props> = (props) => {
         <div
           className="card-success-modal-image"
           style={{ backgroundImage: Success }}></div>
+        <div>
+          <span>Deposited to Vault Successfully</span>
+        </div>
       </div>
     </>
   );
