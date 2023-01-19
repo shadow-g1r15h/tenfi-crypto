@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/successModal.css";
-import Success from "../assets/images/success.png";
+// import Success from "../assets/images/success.png";
 import { useHistory } from "react-router-dom";
 
 interface Props {
@@ -9,7 +9,9 @@ interface Props {
 const SuccessModal: React.FC<Props> = (props) => {
   const history = useHistory();
   const closeBankModal = () => {
+    console.log("clicked");
     history.push(`/`);
+    window.location.reload();
   };
 
   console.log("called");
@@ -20,14 +22,12 @@ const SuccessModal: React.FC<Props> = (props) => {
         className="bank-modal-background"
         onClick={() => {
           closeBankModal();
-        }}></div>
-      <div className="card-success-modal-container">
-        <h3 className="card-done-mssg">Succesfully linked your card</h3>
-        <div
+        }}>
+        <div className="card-success-modal-container">
+          <h3 className="card-done-mssg">Succesfully linked your card</h3>
+          {/* <div
           className="card-success-modal-image"
-          style={{ backgroundImage: Success }}></div>
-        <div>
-          <span>Deposited to Vault Successfully</span>
+          style={{ backgroundImage: Success }}></div> */}
         </div>
       </div>
     </>
